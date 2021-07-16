@@ -15,7 +15,7 @@ function Modal({ closeModal }) {
                     <p>The next page is awesome! You should move forward, you will enjoy it</p>
                 </div>
                 <div className="footer">
-                    <button onClick={() => closeModal(false)}>cancel</button>
+                    <button onClick={() => closeModal(false)} id="cancelBtn">cancel</button>
                     <button>Continue</button>
                 </div>
             </div>
